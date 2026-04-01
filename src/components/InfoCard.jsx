@@ -99,7 +99,8 @@ export const InfoCard = () => {
             src="/imgs/MySQL-Logo.png" 
             alt=""
             />
-            mySQL
+            <span className="text-blue-600">My</span>
+            <span className='text-orange-400'>SQL</span>
           </div>
 
         </div>
