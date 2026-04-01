@@ -76,7 +76,7 @@
 
 
 .title-heading{
-  font-family: BitcountGrid, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+  font-family: FavoritMono BitcountGrid, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
