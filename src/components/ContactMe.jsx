@@ -20,7 +20,7 @@ export const ContactMe = () => {
         </div>
 
         <div className="tooltip mr-2">
-          <a href="https://wa.me/24632402210" target="_blank">
+          <a href="https://wa.me/27632402210" target="_blank">
             <img 
               className='h-5 w-5 invert' 
               src="./imgs/whatsapp.png" 
