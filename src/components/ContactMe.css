@@ -1,0 +1,57 @@
+.contact-me-container{
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+  min-width: 400px;
+  max-width: 700px;
+  margin-top: 40px;
+
+  overflow-x: wrap;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  position: absolute;
+  bottom: 125%; /* above icon */
+  left: 50%;
+  transform: translateX(-50%);
+  
+  background-color: #111;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* little tooltip arrow */
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  border-width: 5px;
+  border-style: solid;
+  border-color: #111 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-4px);
+}
+
+.tooltip:hover img {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}

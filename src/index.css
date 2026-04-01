@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base{
+
+  body {
+    @apply 
+    bg-gray-950
+    text-white
+    relative 
+    h-screen 
+    overflow-x-hidden;
+  }
+}
+
+@font-face {
+  font-family: 'BitcountGrid';
+  src: url('fonts/BitcountGridSingleInk-VariableFont_CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FavoritMono';
+  src: url('fonts/Favorit-Mono.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('fonts/HankenGrotesk-Variable.woff2') format('woff2');
+}
+
