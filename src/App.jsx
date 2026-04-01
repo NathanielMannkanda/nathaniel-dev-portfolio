@@ -34,11 +34,11 @@ function App() {
           <ReachMe />
 
         </div>
-        <div className='BottomPart'>
+        <div className='BottomPart items-centre w-fit justify-center'>
           <div className='bottom-content grid grid-cols-3 gap-2 w-full justify-evenly items-center'>
             <div className='bottom-left text-sm
                 '>
-              Designed & Developed by Nathaniel Mankanda © 2026. All rights reserved.
+              Nathaniel Mankanda © 2026. All rights reserved.
             </div>
 
             <div className='bottom-middle'>
