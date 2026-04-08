@@ -34,7 +34,7 @@ function App() {
           <ReachMe />
 
         </div>
-        <div className='BottomPart items-centre w-fit justify-center'>
+        <div className='BottomPart flex items-center bg-gray-900 p-3 mt-3 justify-center'>
           <div className='bottom-content grid grid-cols-3 gap-2 w-full justify-evenly items-center'>
             <div className='bottom-left text-sm
                 '>
