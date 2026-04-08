@@ -5,7 +5,7 @@ import { gsap } from "gsap"
 export const Cards = () => {
 
   const textRef = useRef(null)
-  const text = "A Front End Developer".split("")
+  const text = "Front End Developer".split("")
 
   const handleHover = () => {
     gsap.killTweensOf(textRef.current.children)
@@ -55,7 +55,7 @@ export const Cards = () => {
       <div className="flex flex-row text-xl">
         <p className="title-text text-4xl font-bold">
           <a className="text-purple-300 text-wrap">
-            Hey! I'm Nathaniel Mankanda —
+            Hey! I'm Nathaniel Mankanda a —
           </a>
           
           <span
