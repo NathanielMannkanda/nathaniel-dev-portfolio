@@ -8,7 +8,7 @@ export const InfoCard = () => {
           Learn more about me
         </h1>
         <span className='font-bold text-md'>
-          Technologies I use:
+          Technologies I've used:
         </span>
 
         <div className='flex flex-wrap justify-center items-center'>
@@ -101,6 +101,26 @@ export const InfoCard = () => {
             />
             <span className="text-blue-600">My</span>
             <span className='text-orange-400'>SQL</span>
+          </div>
+
+          <div className="inline-flex justify-center items-center font-bold text-gray-900 bg-green-300 rounded-md border border-green-900 m-2 w-30 p-1 h-20"> 
+            {/*Tailwind*/}
+            <img 
+            className=" w-6 h-6 mr-1"
+            src="/imgs/mongodb.-logo.png" 
+            alt=""
+            />
+            MongoDB
+          </div>
+
+          <div className="inline-flex justify-center items-center font-bold text-purple-500 bg-purple-300 rounded-md border border-purple-900 m-2 w-30 p-1 h-20"> 
+            {/*Tailwind*/}
+            <img 
+            className=" w-6 h-6 mr-1"
+            src="/imgs/php-icon.png" 
+            alt=""
+            />
+            PHP
           </div>
 
         </div>
