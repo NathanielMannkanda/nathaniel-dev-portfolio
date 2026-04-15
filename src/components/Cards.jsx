@@ -167,7 +167,50 @@ export const Cards = () => {
         </div>
 
         <span className=" text-gray-400">
-          and being able to debug real world issues.
+          and being able to debug real world issues. I also have have worked with databases using 
+        </span>
+
+        <div className="inline-flex items-center ml-1 font-bold text-blue-100 bg-gray-900 rounded-md border border-gray-600 border-dashed mr-1 w-fit p-1 h-6"> 
+          {/*TypeScript card*/}
+          <img 
+            className=" w-3 h-3 mr-1"
+            src="/imgs/mysql-icon.png" 
+            alt=""
+          />
+          <span className="text-blue-400">My</span>
+          <span className="text-orange-400">SQL</span>
+        </div>
+        
+        <span className=" text-gray-400">
+          for relational database management and 
+        </span>
+
+        <div className="inline-flex items-center ml-1 font-bold text-green-300 bg-gray-900 rounded-md border border-gray-600 border-dashed mr-1 w-fit p-1 h-6"> 
+          {/*TypeScript card*/}
+          <img 
+            className=" w-3 h-3 mr-1"
+            src="/imgs/mongodb.-logo.png" 
+            alt=""
+          />
+          MongoDB
+        </div>
+
+        <span className=" text-gray-400">
+          for non-relational, distributed data (NoSQL). I have also worked with 
+        </span>
+
+        <div className="inline-flex items-center ml-1 font-bold text-purple-300 bg-gray-900 rounded-md border border-gray-600 border-dashed mr-1 w-fit p-1 h-6"> 
+          {/*TypeScript card*/}
+          <img 
+            className=" w-3 h-3 mr-1"
+            src="/imgs/php-icon.png" 
+            alt=""
+          />
+          PHP
+        </div>
+
+        <span className=" text-gray-400">
+          with wordpress to make a login form.
         </span>
 
       </div>
