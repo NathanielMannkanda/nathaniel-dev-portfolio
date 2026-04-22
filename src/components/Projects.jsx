@@ -13,6 +13,108 @@ export const Projects = () => {
 
         <div className='flex flex-col mt-3'>
           <div className='flex pb-4 border-b border-b-gray-400'>
+            <a 
+              href="https://dbmade-work-tracker.vercel.app/" 
+              target='_blank'>
+            <img
+              className='h-15 w-15 rounded-md bg-white'
+              src="./imgs/income.png"
+              alt="heart" /> 
+            </a>
+            <div className='ml-2'>
+              <p className='text-xl font-bold'>
+                Work Tracker
+              </p>
+
+              <h2 className='text-gray-400 text-sm mt-2'>
+                2nd Feb - 5th Feb 2026
+              </h2>
+            </div>
+
+          </div>
+
+          <div className='mt-5'>
+            <p className='font-bold text-gray-300'>
+              Technologies I used:
+            </p>
+
+            <div className='flex flex-wrap gap-2 mt-5'>
+
+              <a className='inline-flex items-center self-end border-dotted border-gray-400 bg-gray-900 border-2 rounded-md pl-2 pr-3 pt-0.5 pb-0.5'>
+                <img
+                  className='h-4 w-4'
+                  src="./imgs/react-js-icon.png"
+                  alt="lanuage" />
+                <p className='ml-1 text-sm font-bold'>
+                  React
+                </p>
+
+              </a>
+
+              <a className='inline-flex items-center self-end border-dotted border-gray-400 bg-gray-900 border-2 rounded-md pl-2 pr-3 pt-0.5 pb-0.5'>
+                <img
+                  className='h-4 w-4'
+                  src="./imgs/mongo-db.png"
+                  alt="lanuage" />
+                <p className='ml-1 text-sm font-bold'>
+                  MongoDB
+                </p>
+
+              </a>
+
+              <a className='inline-flex items-center self-end border-dotted border-gray-400 bg-gray-900 border-2 rounded-md pl-2 pr-3 pt-0.5 pb-0.5'>
+                <img
+                  className='h-5 w-5'
+                  src="./imgs/tailwind-css-icon.png"
+                  alt="lanuage" />
+                <p className='ml-1 text-sm font-bold'>
+                  Tailwind CSS
+                </p>
+              </a>
+
+              <a className='inline-flex items-center self-end border-dotted border-gray-400 bg-gray-900 border-2 rounded-md pl-2 pr-3 pt-0.5 pb-0.5'>
+                <img
+                  className='h-5 w-5'
+                  src="./imgs/mongoose.png"
+                  alt="lanuage" />
+                <p className='ml-1 text-sm font-bold'>
+                  Mongoose
+                </p>
+              </a>
+
+              <a className='inline-flex items-center self-end border-dotted border-gray-400 bg-gray-900 border-2 rounded-md pl-2 pr-3 pt-0.5 pb-0.5'>
+                <img
+                  className='h-5 w-5'
+                  src="./imgs/nodejs.png"
+                  alt="lanuage" />
+                <p className='ml-1 text-sm font-bold'>
+                  NodeJS
+                </p>
+              </a>
+
+
+
+            </div>
+
+            <div className='mt-5 text-gray-400'>
+              <p>
+                • I created my own backend with Mongoose and MongoDB hosted by Render
+              </p>
+              <p>
+                • The backend is meant to track the amount of money you would make in response to the hours clocked in / worked
+              </p>
+              <p>
+                • I used TailwindCSS to make a simple design as well as React for a reusable design 
+              </p>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <div className='flex flex-col mt-3'>
+          <div className='flex pb-4 border-b border-b-gray-400'>
             <img
               className='h-15 w-15 rounded-md'
               src="./imgs/heart-icon.jpg"
