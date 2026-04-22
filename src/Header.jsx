@@ -72,7 +72,7 @@ export const Header = () => {
           className="resume-button border"
 
           onClick={() => {
-            window.open("/Nathaniel-Mankanda-Cv.pdf", "_blank"), console.log("THX :) ... CV opened")
+            window.open("./CV/Nathaniel-Mankanda-Cv.pdf", "_blank"), console.log("THX :) ... CV opened")
           }}
 
           onMouseEnter={handleEnter}
