@@ -9,9 +9,11 @@
   height: 90px;
   width: 100%;
 
+
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(10px);
 }
+
 
 .heading-profile{
   min-width: 50px;
@@ -48,17 +50,17 @@
   will-change: transform;
 }
 
-/* Hover feel */
+
 .resume-button:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
 
-/* Click animation */
+
 .resume-button:active {
   transform: scale(0.94);
 }
 
-/* smile overlay */
+/* smiley face thingie */
 .smile {
   position: absolute;
   inset: 0;

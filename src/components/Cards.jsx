@@ -30,7 +30,7 @@ export const Cards = () => {
   }
 
   return (
-    <div className="intro-card-container flex flex-col">
+    <div className="flex flex-col flex-1 border-3 rounded-md h-full p-2.5 min-w-25 max-w-175 mb-2.5">
       
       <div className="flex flex-row items-center mb-8">
         <img
@@ -186,7 +186,7 @@ export const Cards = () => {
         </span>
 
         <div className="inline-flex items-center ml-1 font-bold text-green-300 bg-gray-900 rounded-md border border-gray-600 border-dashed mr-1 w-fit p-1 h-6"> 
-          {/*TypeScript card*/}
+          {/*MongoDB card*/}
           <img 
             className=" w-3 h-3 mr-1"
             src="/imgs/mongodb.-logo.png" 
@@ -196,21 +196,7 @@ export const Cards = () => {
         </div>
 
         <span className=" text-gray-400">
-          for non-relational, distributed data (NoSQL). I have also worked with 
-        </span>
-
-        <div className="inline-flex items-center ml-1 font-bold text-purple-300 bg-gray-900 rounded-md border border-gray-600 border-dashed mr-1 w-fit p-1 h-6"> 
-          {/*TypeScript card*/}
-          <img 
-            className=" w-3 h-3 mr-1"
-            src="/imgs/php-icon.png" 
-            alt=""
-          />
-          PHP
-        </div>
-
-        <span className=" text-gray-400">
-          with wordpress to make a login form.
+          for non-relational, distributed data (NoSQL).
         </span>
 
       </div>

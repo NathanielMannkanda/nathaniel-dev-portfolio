@@ -3,7 +3,7 @@ import './InfoCard.css'
 export const InfoCard = () => {
   return(
     <>
-      <div className='info-card-container flex flex-col'>
+      <div className='flex flex-col flex-1 border-3 rounded-md h-full p-2.5 min-w-25 max-w-175 mt-5 mb-2.5'>
         <h1 className='text-gray-500 text-sm'>
           Learn more about me
         </h1>
@@ -111,16 +111,6 @@ export const InfoCard = () => {
             alt=""
             />
             MongoDB
-          </div>
-
-          <div className="inline-flex justify-center items-center font-bold text-purple-500 bg-purple-300 rounded-md border border-purple-900 m-2 w-30 p-1 h-20"> 
-            {/*Tailwind*/}
-            <img 
-            className=" w-6 h-6 mr-1"
-            src="/imgs/php-icon.png" 
-            alt=""
-            />
-            PHP
           </div>
 
         </div>

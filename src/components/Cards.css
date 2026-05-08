@@ -1,17 +1,3 @@
-.intro-card-container{
-  display: flex;
-  flex: 1;
-  border: solid;
-  border-radius: 8px;
-  padding: 10px;
-  width: 100%;
-  min-width: 400px;
-  max-width: 700px;
-  margin-bottom: 10px;
-
-  overflow-x: wrap;
-}
-
 .frontend-text span {
   display: inline-block;
   will-change: transform;

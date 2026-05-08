@@ -3,7 +3,7 @@ import './Projects.css'
 export const Projects = () => {
   return (
     <>
-      <div className='projects-info-container flex flex-col'>
+      <div className='flex flex-col flex-1 h-full p-2.5 min-w-25 max-w-175 mt-5 mb-2.5'>
         <p className='text-gray-400'>
           Featured
         </p>
@@ -27,7 +27,7 @@ export const Projects = () => {
               </p>
 
               <h2 className='text-gray-400 text-sm mt-2'>
-                2nd Feb - 5th Feb 2026
+                April 2026
               </h2>
             </div>
 
@@ -125,7 +125,7 @@ export const Projects = () => {
               </p>
 
               <h2 className='text-gray-400 text-sm mt-2'>
-                2nd Feb - 5th Feb 2026
+                Feb 2026
               </h2>
             </div>
 
@@ -223,7 +223,7 @@ export const Projects = () => {
               </p>
 
               <h2 className='text-gray-400 text-sm mt-2'>
-                7th Feb - 10th Feb 2026
+                Feb 2026
               </h2>
             </div>
 
@@ -314,7 +314,7 @@ export const Projects = () => {
               </p>
 
               <h2 className='text-gray-400 text-sm mt-2'>
-                Oct 2025 - Nov 2026
+                Oct 2025 - Nov 2025
               </h2>
             </div>
 

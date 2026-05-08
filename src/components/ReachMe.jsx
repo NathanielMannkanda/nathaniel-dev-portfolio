@@ -4,7 +4,7 @@ import './ReachMe.css'
 export const ReachMe = () => {
   return(
     <>
-      <div className='reach-me-container flex flex-col items-center'>
+      <div className='flex flex-col justify-center items-center flex-1 border-3 border-dotted rounded-md w-full h-50 p-2.5 min-w-25 max-w-175 mt-5'>
         <h1 className='text-md text-gray-400 mb-5'>
           You've made it this far, Lets talk.
         </h1>
