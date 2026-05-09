@@ -98,13 +98,13 @@ export const Projects = () => {
 
             <div className='mt-5 text-gray-400'>
               <p>
-                • I created my own backend with Mongoose and MongoDB hosted by Render
+                • I created my own backend database with Mongoose and MongoDB hosted by Render
               </p>
               <p>
-                • The backend is meant to track the amount of money you would make in response to the hours clocked in / worked
+                • The backend is tracks the amount of money you would make in response to the hours clocked in / worked
               </p>
               <p>
-                • I used TailwindCSS to make a simple design as well as React for a reusable design 
+                • I used TailwindCSS to make a simple design as well as React for reusable components 
               </p>
 
             </div>
