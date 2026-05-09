@@ -3,7 +3,7 @@ import './Projects.css'
 export const Projects = () => {
   return (
     <>
-      <div className='flex flex-col flex-1 h-full p-2.5 min-w-25 max-w-175 mt-5 mb-2.5'>
+      <div className='flex flex-col flex-1 h-full p-2.5 min-w-100 max-w-175 w-full mt-5 mb-2.5'>
         <p className='text-gray-400'>
           Featured
         </p>

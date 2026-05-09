@@ -3,7 +3,7 @@ import './InfoCard.css'
 export const InfoCard = () => {
   return(
     <>
-      <div className='flex flex-col flex-1 border-3 rounded-md h-full p-2.5 min-w-25 max-w-175 mt-5 mb-2.5'>
+      <div className='flex flex-col flex-1 border-3 rounded-md h-full p-2.5 w-full min-w-25 max-w-175 mt-5 mb-2.5'>
         <h1 className='text-gray-500 text-sm'>
           Learn more about me
         </h1>

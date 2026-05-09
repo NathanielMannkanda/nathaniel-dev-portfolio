@@ -30,7 +30,7 @@ export const Cards = () => {
   }
 
   return (
-    <div className="flex flex-col flex-1 border-3 rounded-md h-full p-2.5 min-w-25 max-w-175 mb-2.5">
+    <div className="flex flex-col flex-1 border-3 rounded-md h-full p-2.5 w-full min-w-100 max-w-175 mb-2.5 overflow-x-hidden">
       
       <div className="flex flex-row items-center mb-8">
         <img
