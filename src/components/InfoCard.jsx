@@ -113,6 +113,16 @@ export const InfoCard = () => {
             MongoDB
           </div>
 
+          <div className="inline-flex justify-center items-center font-bold text-orange-900 bg-orange-300 rounded-md border border-orange-900 m-2 w-30 p-1 h-20"> 
+            {/*Tailwind*/}
+            <img 
+            className=" w-6 h-6 mr-1"
+            src="/imgs/firebase-icon.png" 
+            alt=""
+            />
+            Firebase
+          </div>
+
         </div>
 
       </div>
