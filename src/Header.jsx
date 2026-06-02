@@ -15,7 +15,13 @@ export const Header = () => {
         <img className="pfp-icon" src="/imgs/coffee-cat.png" />
       </div>
 
-      <div className='title-heading'>DEVBYNATHANIEL</div>
+      <div className='title-heading'>
+        <img
+          className="mt-7 h-60" 
+          src="/imgs/banner.png" 
+          alt="Website Banner" 
+        />
+      </div>
 
       <div className="right-side-header">
         <button

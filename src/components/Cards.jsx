@@ -196,7 +196,21 @@ export const Cards = () => {
         </div>
 
         <span className=" text-gray-400">
-          for non-relational, distributed data (NoSQL).
+          for non-relational, distributed data (NoSQL). I have also used 
+        </span>
+
+        <div className="inline-flex items-center ml-1 font-bold text-orange-300 bg-gray-900 rounded-md border border-gray-600 border-dashed mr-1 w-fit p-1 h-6"> 
+          {/*MongoDB card*/}
+          <img 
+            className=" w-3 h-3 mr-1"
+            src="/imgs/firebase-icon.png" 
+            alt=""
+          />
+          Firebase
+        </div>
+
+        <span className=" text-gray-400">
+          as a Backend-as-a-Service (BaaS). 
         </span>
 
       </div>

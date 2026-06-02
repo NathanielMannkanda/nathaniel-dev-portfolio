@@ -10,7 +10,7 @@
   width: 100%;
 
 
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
