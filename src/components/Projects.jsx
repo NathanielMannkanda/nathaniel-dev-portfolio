@@ -174,10 +174,15 @@ export const Projects = () => {
 
         <div className='flex flex-col mt-3'>
           <div className='flex pb-4 border-b border-b-gray-400'>
+            <a
+              href="https://health-tracker-five-ivory.vercel.app/"
+              target='_blank'
+            >
             <img
-              className='h-15 w-15 rounded-md'
+              className='h-15 w-15 rounded-md cursor-pointer'
               src="./imgs/heart-icon.jpg"
               alt="heart" />
+            </a>
             <div className='ml-2'>
               <p className='text-xl font-bold'>
                 Health Tracker
@@ -255,13 +260,13 @@ export const Projects = () => {
 
             <div className='mt-5 text-gray-400'>
               <p>
-                • I used a backend with information on different patients to populate a page
+                • I used a API with information on different patients to populate a page. The website isnt meant to be useable just a remake of a adobe design 
               </p>
               <p>
                 • Using Tailwind to transform the page to a well presentable and stylish website
               </p>
               <p>
-                • I followed the design made with Adobe Xd to recreate the look of the website
+                • I followed the design made with Adobe Xd to recreate the look of the website. 
               </p>
 
             </div>
