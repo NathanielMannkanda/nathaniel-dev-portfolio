@@ -1,6 +1,7 @@
 import "./Cards.css"
 import { useRef } from "react"
 import { gsap } from "gsap"
+import { ContactMe } from "./ContactMe"
 
 export const Cards = () => {
 
@@ -46,10 +47,11 @@ export const Cards = () => {
           </p>
 
           <span className="text-gray-400">— Ada Lovelace</span>
-
-
-
         </div>
+      </div>
+
+      <div className=" -mt-4">
+        <ContactMe />
       </div>
 
       <div className="flex flex-row text-xl">

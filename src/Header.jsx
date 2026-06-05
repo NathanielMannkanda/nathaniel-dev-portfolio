@@ -17,8 +17,8 @@ export const Header = () => {
 
       <div className='title-heading'>
         <img
-          className="mt-7 h-60" 
-          src="/imgs/banner.png" 
+          className="  h-10 invert" 
+          src="./banners/DevbyNathaniel.png" 
           alt="Website Banner" 
         />
       </div>

@@ -3,7 +3,13 @@ import './ContactMe.css'
 export const ContactMe = () => {
   return(
     <div className='flex flex-col p-2.5 min-w-100
-     max-w-175 flex-1 mt-10 w-full'>
+     max-w-175 flex-1 w-full justify-center items-center border-b pb-4 mb-3 border-gray-700'>
+
+      <img 
+        className='h-20'
+        src="./gifs/cat-working.gif" 
+        alt="cat working" />
+
       <p className='mb-3 text-ml text-gray-400'>
         Contact me:
       </p>

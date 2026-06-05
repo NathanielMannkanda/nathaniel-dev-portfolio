@@ -29,7 +29,6 @@ function App() {
         <div className='site-content-container pt-30 p-2'>
           <Cards />
           <InfoCard />
-          <ContactMe />
           <Projects />
           <ReachMe />
 
